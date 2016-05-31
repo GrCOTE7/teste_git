@@ -1,0 +1,40 @@
+body
+{
+	background-color: gray ;
+    text-align: justify;
+}
+body:active 
+{
+	background-image: url("ProtectionASSECO.PNG") ;
+	background-repeat: no-repeat ;
+	background-position: center ;
+    text-align: justify;
+}
+header p
+{
+	margin: 0px ;
+	padding: 0px ;
+
+}
+section article  p
+{
+	margin: 0px ;
+	padding: 0px ;
+
+}
+li , ul
+{
+-	display: inline-block ;
+-	display: block ;
+-	display: inline-block ;
+
+
+}
+li:active
+{
+-	display: inline-block ;
+-	display: block ;
+-	display: inline-block ;
+	background-color: red ;
+
+}

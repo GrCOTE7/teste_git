@@ -1,0 +1,157 @@
+﻿
+body
+{
+	/*
+	// Taille
+	*/
+	margin:0;
+	padding:0;
+	width: 100% ;
+	height: 100% ;
+	/*
+	// image
+	*/
+	background-image:url("img/background/Beautiful-Wallpapers-6.jpg");
+	background-image:url("img/background/poussier-spacial+tonner.jpg");
+-	background-image:url("img/background/Dark-Game-Scene.jpg");
+	
+	
+	background-attachment:fixed ;
+	background-repeat: no-repeat ;
+	background-size: 100% 100% ;
+	/*
+	// Couleur
+	*/	
+	background-color:black ;
+	color:maroon ;
+}
+footer
+{
+	/*
+	// Taille
+	*/
+	margin:0;
+	padding:0;
+	height: 100px ;
+	/*
+	// Couleur
+	*/
+	background-color:black ;
+	color:maroon ;
+}
+a
+{
+	/*
+	// Couleur
+	*/
+	color:pink ;
+	color:#ff0099 ;
+	
+}
+h1
+{
+	/*
+	// Taille
+	*/
+	margin: 0px;
+	padding: 0px ;
+	font-size:300%;
+	/*
+	// position
+	*/
+	text-align:center;
+	/*
+	// decoration
+	*/
+	text-decoration: underline ;
+	
+	
+}
+h2 
+{
+	/*
+	// Taille
+	*/
+	font-size:250%;
+	margin: 0px;
+	padding: 0px ;
+	/*
+	// position
+	*/
+	text-align:center;
+	text-align:left;
+	/*
+	// Decoration
+	*/
+	text-decoration: underline ;
+	
+}
+#corp
+{
+	/*
+	// Taille
+	*/
+	display: inline-block ;
+	vertical-align:top ;
+	min-width: 70%	;
+	min-height: 500px;
+	/*
+	// position
+	*/
+	position:relative ;
+	/*
+	// Decoration
+	*/
+	border:	5px solid  green ;	
+	border-radius: 10px ;
+	/*
+	// Couleur
+	*/
+	background-color:gray ;
+	color:maroon ;
+}
+.engrenage
+{
+	/*
+	// Taille
+	*/
+	right: 0px ;
+	top: 0px ;
+	size:15px ;
+	width: 100px;
+	height: 100px;
+	/*
+	// position
+	*/
+	position:fixed ;
+}
+section article
+{
+	/*
+	// Taille
+	*/
+	margin:auto ;
+	right: 0px ;
+	top: 0px ;
+	width: 50%;
+	width: 25%;
+	/*
+	// Decoration
+	*/
+	border: 5px solid green ;
+	border-radius:10px ;
+	
+}
+select
+{
+	/*
+	// Taille
+	*/
+	min-width: 325px;
+	min-height: 50px;
+	font-size:200%;
+	/*
+	// position
+	*/
+	text-align:center ;
+}

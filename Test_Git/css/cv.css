@@ -1,7 +1,6 @@
 body {
     background : url("../imgs/ProtectionASSECO.png") no-repeat center #9f9f9f fixed;
     text-align : justify;
-    text-align : justify;
 }
 
 header p {
@@ -25,4 +24,4 @@ ul {
 
 /*Pour l'heure, oublies les inline-block et block... Tu zieuteras 'display: flex ;-))*/
 
-/*Dans le dossier img, tu y trouveras la capture de mon écran qui te montre un envirronnement de dev ;-)*/
+/*Dans le dossier img, tu y trouveras la capture de mon écran qui te montre un environnement de dev ;-)*/

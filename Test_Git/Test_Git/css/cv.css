@@ -1,0 +1,27 @@
+body {
+    background : url("../imgs/ProtectionASSECO.png") no-repeat center #9f9f9f fixed;
+    text-align : justify;
+}
+
+header p {
+    margin  : 0;
+    padding : 0;
+}
+
+section article p {
+    margin  : 0;
+    padding : 0;
+}
+
+ul {
+    padding               : 10px 0 10px 30px;
+    width                 : 27%;
+    -webkit-border-radius : 7px;
+    -moz-border-radius    : 7px;
+    border-radius         : 7px;
+    background-color      : rgba(255, 0, 0, 0.5);
+}
+
+/*Pour l'heure, oublies les inline-block et block... Tu zieuteras 'display: flex ;-))*/
+
+/*Dans le dossier img, tu y trouveras la capture de mon écran qui te montre un environnement de dev ;-)*/

@@ -35,8 +35,8 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="foret" value="var o2t = function () {&#10;    var t = '&lt;table&gt;';&#10;    for (var id in $ARRAY$) {&#10;        t += '&lt;tr&gt;&lt;td&gt;' + id + '&lt;/td&gt;' +&#10;            '&lt;td&gt;' + $ARRAY$[id] + '&lt;/td&gt;&lt;/tr&gt;';&#10;    }&#10;    t += '&lt;/table&gt;';&#10;    aff(t);&#10;};&#10;o2t();&#10;&#10;$END$" description="Iterate (for..in) -&gt; table" toReformat="true" toShortenFQNames="true">
-    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+  <template name="foret" value="var o2T = function () {&#10;    var n = 0, t = '&lt;table&gt;';&#10;    for (var id in $ARRAY$) {&#10;        n++;&#10;        if (f.hasOwnProperty(id)) {&#10;            t += '&lt;tr&gt;&lt;td&gt;' + id + '&lt;/td&gt;' +&#10;                '&lt;td&gt;' + $ARRAY$[id] + '&lt;/td&gt;&lt;/tr&gt;';&#10;        }&#10;    }&#10;    t += '&lt;/table&gt;';&#10;    aff(n + ' items: ' + t);&#10;};&#10;o2T();&#10;&#10;$END$" description="Iterate (for..in) -&gt; table" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
       <option name="JS_EXPRESSION" value="true" />

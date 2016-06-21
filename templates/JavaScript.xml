@@ -26,4 +26,13 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
+  <template name="fore" value="for (var id in $ARRAY$) {&#10;  aff(id + ': '+ $ARRAY$[id]+'&lt;br /&gt;');&#10;}&#10;$END$" description="Iterate (for..in)" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -2,4 +2,9 @@
   <template name="eco" value="echo '$END$';" description="'echo' statement" toReformat="true" toShortenFQNames="true">
     <context />
   </template>
+  <template name="$t" value="    $this-&gt;$END$" description="this" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>

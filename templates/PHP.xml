@@ -1,0 +1,5 @@
+<templateSet group="PHP">
+  <template name="eco" value="echo '$END$';" description="'echo' statement" toReformat="true" toShortenFQNames="true">
+    <context />
+  </template>
+</templateSet>
